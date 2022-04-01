@@ -1,0 +1,29 @@
+:root{
+  /* ---Color Palette--- */
+  --main-dark:#212121;
+  --sec-dark:#232323;
+  --grey:#6e6e6e;
+  --red:#ff0000;
+  --white:#fff;
+  --sub-white:#fafafa;
+}
+
+/* Delete The Default settings */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'inter' ,sans-serif;
+}
+
+body{
+  background-color: var(--main-dark);
+}
+
+.main-container{
+ margin: 15px 25px;
+ display: grid;
+ grid-template-columns: repeat(12 ,1fr); 
+ grid-template-rows: repeat(9 ,1fr); 
+ 
+}
