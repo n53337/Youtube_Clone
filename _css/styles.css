@@ -21,9 +21,70 @@ body{
 }
 
 .main-container{
- margin: 15px 25px;
+ margin: 0px 25px;
+ height: 100vh;
  display: grid;
  grid-template-columns: repeat(12 ,1fr); 
- grid-template-rows: repeat(9 ,1fr); 
+ /* grid-template-rows: repeat(9 ,minmax(5px, 10px)); */
+ grid-template-rows: repeat(9 ,1fr);
+ 
  
 }
+/* HEADER */
+
+/* grid placing elements */
+.main-header{
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  align-items: center;
+  justify-content:space-between ;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slides{
+  grid-column: 4/-1;
+  grid-row: 2/3;
+  display: flex;
+  
+}
+.main-menu{
+  grid-column: 1/4;
+  grid-row: 2/-1;
+  /* display: flex; */
+}
+
+.content{
+  grid-column: 4/-1;
+  grid-row: 2/-1;
+  display: flex;
+}
+
+
+.search-field{
+  width: 30%;
+  height: 20px;
+}
+
